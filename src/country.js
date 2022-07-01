@@ -58,6 +58,8 @@ export const getCountryByFilter = async countryFilter => {
     countryFilter = {}
   }
   const { areacode, location, name, population} = countryFilter
+
+  
   let query = countryCollection
 
 
